@@ -70,5 +70,5 @@ $$ language PLPGSQL;
 /*
 Вызов функции
 */
-select * FROM makeOtchet('getOtchet','21.05.2001','21.05.2002');
+SELECT * FROM makeOtchet('getOtchet','21.05.2001','21.05.2002');
 FETCH ALL IN "getOtchet";
